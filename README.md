@@ -21,6 +21,7 @@ Administration is possible directly from the private Telegram chat, into which w
 ---
 
 ## 🧱 Project Structure
+```text
 FileKeeper/
 │
 ├── cmd/
@@ -41,6 +42,7 @@ FileKeeper/
 ├── go.mod
 ├── go.sum
 └── README.md
+```
 
 ## ⚙️ Configuration
 
