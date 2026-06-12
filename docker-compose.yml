@@ -1,0 +1,13 @@
+services:
+  filekeeper:
+    image: inkpwd/filekeeper:latest
+
+    container_name: filekeeper
+
+    env_file:
+      - .env
+
+    ports:
+      - "8080:8080"
+
+    restart: unless-stopped
