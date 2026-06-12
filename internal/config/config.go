@@ -3,6 +3,8 @@ package config
 import (
 	"os"
 	"strconv"
+
+	"github.com/joho/godotenv"
 )
 
 type Config struct {
@@ -17,8 +19,12 @@ type Config struct {
 }
 
 func Load() (*Config, error) {
-	var cfg Config
-	var err error
+	var (
+		cfg Config
+		err error
+	)
+
+	_ = godotenv.Load()
 
 	cfg.Host = os.Getenv("HOST")
 	cfg.Port = os.Getenv("PORT")
