@@ -147,11 +147,12 @@ No database required — Telegram acts as storage layer.
 
 ## 🧩 Use Case Diagram
 
-(will be added soon)
+![diagram](https://i.ibb.co/9m9n62vY/usecase.png)
 
 ## 🎥 Video Overview
 
-(will be added soon)
+[![Микросервис FileKeeper. Golang.](https://youtube.com)](https://youtu.be/Ap_2BTv5IcA?si=A1PrFl7rTPUuq6CW)
+
 
 ## License
 MIT
