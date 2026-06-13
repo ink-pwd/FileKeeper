@@ -39,7 +39,7 @@ func (f *FileHandler) UploadFile(w http.ResponseWriter, r *http.Request) {
 		messageID string
 	)
 	if r.Method != http.MethodPost {
-		w.WriteHeader(http.StatusBadRequest)
+		w.WriteHeader(http.StatusMethodNotAllowed)
 		return
 	}
 	/*
@@ -104,7 +104,7 @@ func (f *FileHandler) GetFile(w http.ResponseWriter, r *http.Request) {
 		resp    *http.Response
 	)
 	if r.Method != http.MethodGet {
-		w.WriteHeader(http.StatusBadRequest)
+		w.WriteHeader(http.StatusMethodNotAllowed)
 		return
 	}
 	fileID = r.PathValue("id")
