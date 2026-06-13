@@ -7,7 +7,6 @@ This approach allows offloading file storage outside of the application infrastr
 
 Administration is possible directly from the private Telegram chat, into which we upload files.
 
----
 
 ## 🚀 Features
 
@@ -18,7 +17,6 @@ Administration is possible directly from the private Telegram chat, into which w
 - Dockerized deployment
 - Designed for personal / small-server usage
 
----
 
 ## 🧱 Project Structure
 ```text
