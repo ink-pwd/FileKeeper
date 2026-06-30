@@ -149,7 +149,7 @@ No database required — Telegram acts as storage layer.
 
 ## 🎥 Video Overview
 
-[![Микросервис FileKeeper. Golang.](https://youtube.com)](https://youtu.be/Ap_2BTv5IcA?si=A1PrFl7rTPUuq6CW)
+[![Микросервис FileKeeper. Golang.](https://youtube.com)](https://youtu.be/Ap_2BTv5IcA)
 
 
 ## License
